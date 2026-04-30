@@ -95,7 +95,7 @@ Make sure you have the following installed on your system:
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/<@s-a-d-a-t>/heart-disease-ml-proposal.git
+git clone [https://github.com/<@s-a-d-a-t>/heart-disease-ml-proposal.git ](https://github.com/s-a-d-a-t/Early-Detection-of-Heart-Disease-Using-Machine-Learning-Techniques-on-Patient-Health-Data)     
 cd heart-disease-ml-proposal
 ```
 
