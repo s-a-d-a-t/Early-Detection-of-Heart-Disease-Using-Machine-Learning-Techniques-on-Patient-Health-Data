@@ -95,7 +95,7 @@ Make sure you have the following installed on your system:
 ### Step 1 — Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/heart-disease-ml-proposal.git
+git clone https://github.com/<@s-a-d-a-t>/heart-disease-ml-proposal.git
 cd heart-disease-ml-proposal
 ```
 
