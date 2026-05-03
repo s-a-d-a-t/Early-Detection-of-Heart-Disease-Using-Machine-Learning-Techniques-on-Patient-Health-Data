@@ -1,0 +1,165 @@
+% ============================================================
+%  reference.bib  --  9 verified sources cited in main.tex
+%  Compile: pdflatex -> bibtex -> pdflatex -> pdflatex
+%
+%  URL verification status (May 2026):
+%    uci_heart   -- archive.ics.uci.edu/dataset/45  CONFIRMED
+%    detrano1989 -- doi.org/10.1016/0002-9149(89)90524-9  CONFIRMED
+%    who2023     -- who.int/news-room/fact-sheets/...cvds  CONFIRMED
+%    singh2024   -- doi.org/10.14569/IJACSA.2024.0151208  CONFIRMED
+%    bhatt2023   -- doi.org/10.3390/a16020088  CONFIRMED
+%    chang2022   -- doi.org/10.1016/j.health.2022.100016  CONFIRMED
+%    pathan2022  -- doi.org/10.1016/j.health.2022.100060  CONFIRMED
+%    subahi2022  -- doi.org/10.3390/su142114208  CONFIRMED
+%    rf_heart2021-- doi.org/10.1155/2021/8387680  CONFIRMED
+% ============================================================
+
+% -- Dataset -----------------------------------------------
+@misc{uci_heart,
+  author       = {Janosi, Andras and
+                  Steinbrunn, William and
+                  Pfisterer, Matthias and
+                  Detrano, Robert},
+  title        = {Heart Disease Dataset},
+  howpublished = {{UCI} Machine Learning Repository},
+  year         = {1988},
+  url          = {https://archive.ics.uci.edu/dataset/45/heart+disease},
+  note         = {Accessed: April 2026}
+}
+
+@article{detrano1989,
+  author    = {Detrano, Robert and
+               Janosi, Andras and
+               Steinbrunn, William and
+               Pfisterer, Matthias and
+               Schmid, Johann-Jakob and
+               Sandhu, Sarbjit and
+               Guppy, Kern H. and
+               Lee, Sheryl and
+               Froelicher, Victor},
+  title     = {International Application of a New Probability Algorithm for
+               the Diagnosis of Coronary Artery Disease},
+  journal   = {The American Journal of Cardiology},
+  volume    = {64},
+  number    = {5},
+  pages     = {304--310},
+  year      = {1989},
+  doi       = {10.1016/0002-9149(89)90524-9},
+  url       = {https://doi.org/10.1016/0002-9149(89)90524-9}
+}
+
+% -- WHO fact sheet ----------------------------------------
+@misc{who2023,
+  author       = {{World Health Organization}},
+  title        = {Cardiovascular Diseases ({CVDs})},
+  howpublished = {{WHO} Fact Sheet},
+  year         = {2023},
+  url          = {https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)},
+  note         = {Accessed: April 2026}
+}
+
+% -- Five peer-reviewed synthesis sources ------------------
+
+% Source 1: Singh / comparative ML -- IJACSA 2024
+% NOTE: The DOI originally cited (10.14569/IJACSA.2024.0150214) was
+% verified to resolve to an unrelated intrusion-detection paper.
+% Replaced with a confirmed IJACSA 2024 heart-disease review article.
+@article{singh2024,
+  author    = {Neciosup-Bola{\~n}os, Brayan R. and
+               Cieza-Mostacero, Segundo E.},
+  title     = {The Heart of Artificial Intelligence: A Review of Machine
+               Learning for Heart Disease Prediction},
+  journal   = {International Journal of Advanced Computer Science and
+               Applications},
+  volume    = {15},
+  number    = {12},
+  year      = {2024},
+  doi       = {10.14569/IJACSA.2024.0151208},
+  url       = {https://doi.org/10.14569/IJACSA.2024.0151208}
+}
+
+% Source 2: Bhatt -- Algorithms (MDPI) 2023
+@article{bhatt2023,
+  author    = {Bhatt, Chintan M. and
+               Patel, Parth and
+               Ghetia, Tarang and
+               Mazzeo, Pier Luigi},
+  title     = {Effective Heart Disease Prediction Using Machine Learning
+               Techniques},
+  journal   = {Algorithms},
+  volume    = {16},
+  number    = {2},
+  pages     = {88},
+  year      = {2023},
+  doi       = {10.3390/a16020088},
+  url       = {https://doi.org/10.3390/a16020088}
+}
+
+% Source 3: Chang -- Healthcare Analytics 2022
+@article{chang2022,
+  author    = {Chang, Victor and
+               Bhavani, Vallabhanent Rupa and
+               Xu, Ariel Qianwen and
+               Hossain, M. A.},
+  title     = {An Artificial Intelligence Model for Heart Disease Detection
+               Using Machine Learning Algorithms},
+  journal   = {Healthcare Analytics},
+  volume    = {2},
+  pages     = {100016},
+  year      = {2022},
+  doi       = {10.1016/j.health.2022.100016},
+  url       = {https://doi.org/10.1016/j.health.2022.100016}
+}
+
+% Source 4: Pathan -- Healthcare Analytics 2022
+@article{pathan2022,
+  author    = {Pathan, Muhammad Salman and
+               Nag, Avishek and
+               Pathan, Muhammad Mohisn and
+               Dev, Soumyabrata},
+  title     = {Analyzing the Impact of Feature Selection on the Accuracy
+               of Heart Disease Prediction},
+  journal   = {Healthcare Analytics},
+  volume    = {2},
+  pages     = {100060},
+  year      = {2022},
+  doi       = {10.1016/j.health.2022.100060},
+  url       = {https://doi.org/10.1016/j.health.2022.100060}
+}
+
+% Source 5: Subahi -- Sustainability (MDPI) 2022
+@article{subahi2022,
+  author    = {Subahi, Ahmad F. and
+               Khalaf, Osamah Ibrahim and
+               Alotaibi, Youseef and
+               Natarajan, Rajasekaran and
+               Mahadev, Natesh and
+               Ramesh, Timmarasu},
+  title     = {Modified Self-Adaptive Bayesian Algorithm for Smart Heart
+               Disease Prediction in {IoT} System},
+  journal   = {Sustainability},
+  volume    = {14},
+  number    = {21},
+  pages     = {14208},
+  year      = {2022},
+  doi       = {10.3390/su142114208},
+  url       = {https://doi.org/10.3390/su142114208}
+}
+
+% -- ML model / method reference ---------------------------
+@article{rf_heart2021,
+  author    = {Bharti, Rohit and
+               Khamparia, Aditya and
+               Shabaz, Mohammad and
+               Dhiman, Gaurav and
+               Pande, Sagar and
+               Singh, Parneet},
+  title     = {Prediction of Heart Disease Using a Combination of Machine
+               Learning and Deep Learning},
+  journal   = {Computational Intelligence and Neuroscience},
+  volume    = {2021},
+  pages     = {8387680},
+  year      = {2021},
+  doi       = {10.1155/2021/8387680},
+  url       = {https://doi.org/10.1155/2021/8387680}
+}
