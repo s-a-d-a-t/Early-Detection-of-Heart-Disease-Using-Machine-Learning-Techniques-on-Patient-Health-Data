@@ -59,13 +59,13 @@ heart-disease-ml-proposal/
 │
 ├── 📄 README.md                   ← You are here
 │
-├── 📂 proposal/                   ← LaTeX source files
+├── 📂 latex/                   ← LaTeX source files
 │   ├── main.tex                   ← Main LaTeX document
 │   ├── reference.bib              ← BibTeX bibliography (14 entries)
-│   └── figures/
-│       ├── p 3.1.png              ← System architecture diagram
-│       ├── p 3..png               ← Preprocessing pipeline diagram
-│       └── gantt.png              ← Project Gantt chart
+│   ├──  p 3.1.png              ← System architecture diagram
+│   ├──  p 3..png               ← Preprocessing pipeline diagram
+│   ├── gantt.png              ← Project Gantt chart
+│     
 │
 ├── 📂 code/                       ← (Planned) Python implementation
 │   ├── preprocessing.py           ← Data cleaning & normalisation
@@ -73,8 +73,8 @@ heart-disease-ml-proposal/
 │   ├── evaluate.py                ← Metrics computation & plots
 │   └── requirements.txt           ← Python dependencies
 │
-└── 📂 data/                       ← Dataset placeholder
-    └── README_data.md             ← Dataset download instructions
+└── README_data.md             ← Dataset download instructions                   
+
 ```
 
 ---
